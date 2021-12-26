@@ -1,0 +1,29 @@
+.DialogItem{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-end;
+}
+.DialogItem:nth-child(even){
+    flex-direction: row-reverse;
+}
+.DialogItemText{
+    max-width: 300px;
+    word-break: break-word;
+    background: #8EA5A8;
+    padding: 30px;
+    border-radius: 20px 20px 20px 0;
+    margin:0 0 34px 10px;
+}
+.DialogItem:nth-child(even) .DialogItemText{
+    border-radius: 20px 20px 0 20px;
+    margin:0 10px 34px 0;
+}
+
+.DialogItemCol img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #8EA5A8;
+}
+

@@ -1,0 +1,123 @@
+.user {
+    width: 100%;
+    max-width: 300px;
+    height: 380px;
+    overflow: hidden;
+    border: 1px solid rgba(126, 125, 128, 0.4);
+    border-radius: 15px;
+}
+
+.userHead {
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+
+.userBg {
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.userBg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.userImg {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    margin: -40px auto 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    transition: all .5s;
+}
+
+.userImg:hover {
+    transform: translate(-50%, 50%) scale(1.1);
+}
+
+.userImg img {
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+
+.userBody {
+    height: 65%;
+    padding: 50px 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userTitle {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.userTitle a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #08050e;
+}
+
+.userTitle a:hover {
+    text-decoration: underline;
+}
+
+.userSubtitle {
+    flex-grow: 1;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.userInfo{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.userLocation {
+    font-size: 13px;
+}
+.userLocationSpan + .userLocationSpan{
+    margin-left: 5px;
+}
+.userFollowers {
+    font-size: 13px;
+}
+
+.userFollow {
+    justify-self: flex-end;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.userFollowButton {
+    padding: 7px 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+
+    background: #124591;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+.userFollowButton:hover{
+    box-shadow: 0 0 10px rgba(18, 69, 145, 0.8);
+}

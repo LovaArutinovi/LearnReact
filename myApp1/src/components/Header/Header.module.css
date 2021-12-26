@@ -1,0 +1,17 @@
+.header {
+   grid-area: header;
+   background: rgb(145, 18, 18);
+   padding: 30px;
+}
+
+.header__logo {
+   width: 100px;
+   height: 100px;
+}
+
+.header__logo img {
+   display: block;
+   width: 100%;
+   height: auto;
+   filter: invert(1);
+}

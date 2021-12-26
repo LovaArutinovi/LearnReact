@@ -1,0 +1,40 @@
+.sidebar {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 20px;
+   margin: 20px 20px 0 0;
+   padding: 30px;
+   grid-area: sidebar;
+   align-self: start;
+   background: rgb(18, 69, 145);
+}
+
+.nav {
+   display: grid;
+   grid-auto-flow: row;
+}
+
+.nav__link {
+   color: #f0f8ff;
+   text-decoration: none;
+   margin: 10px 0;
+}
+.nav__link:hover{
+   color: rgb(19, 245, 226);
+}
+.nav__link.active{
+   color: rgb(19, 245, 226);
+}
+
+.mainFriends {
+   display: flex;
+}
+.mainFriends .item{
+   margin: 0 15px;
+}
+.mainFriends .item img{
+   width: 40px;
+   height: 40px;
+   border: 1px solid #8EA5A8;
+   border-radius: 50%;
+}
